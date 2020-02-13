@@ -1,0 +1,42 @@
+body{
+	background: -moz-linear-gradient(45deg, #0E3853 0%, #343E9D 55%, #43C9BB 100%);
+background: -webkit-linear-gradient(45deg, #0E3853 0%, #343E9D 55%, #43C9BB 100%);
+background: linear-gradient(45deg, #0E3853 0%, #343E9D 55%, #43C9BB 100%);
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+position: relative;
+}
+
+table,th,td {
+  border : 1px solid white;
+  border-collapse: collapse;
+  color:white;
+  font-family: 'Roboto Slab', serif;
+}
+th,td {
+  padding: 10px;
+  color:white;
+ font-family: 'Cabin', sans-serif;
+
+}
+#txtHint{
+  color:white;
+font-family: 'Cabin', sans-serif;
+ 
+}
+form{
+ right: 40%;
+ left: 50%;
+ top: 48%;
+ bottom:50%;
+ position: absolute;
+ transform: translate(-50%,-50%);
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+display:absolute;
+margin-top: 100px;
+}

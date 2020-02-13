@@ -1,0 +1,51 @@
+body{
+	background: -moz-linear-gradient(45deg, #0E3853 0%, #343E9D 55%, #43C9BB 100%);
+background: -webkit-linear-gradient(45deg, #0E3853 0%, #343E9D 55%, #43C9BB 100%);
+background: linear-gradient(45deg, #0E3853 0%, #343E9D 55%, #43C9BB 100%);
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+position:relative;
+}
+
+
+
+
+.cont .card1{
+	
+   position: relative;
+	width: 200px;
+	height: 200px;
+	background: white;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+ float:left;
+ border-style: ridge;
+border: 10px solid
+#c4daf1;
+  margin-left:  25%;
+margin-top:30px; 
+
+
+}
+	.cont .card2{
+	 position: relative;
+	width: 200px;
+	height: 200px;
+	background: white;
+	border-style: ridge;
+border: 10px solid
+#c4daf1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25%;
+ float:right;
+
+}
+.cont{
+position: relative;
+margin-top:30px;
+}
